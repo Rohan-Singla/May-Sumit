@@ -33,17 +33,18 @@ document.addEventListener("DOMContentLoaded", function () {
 
 var openmenu = document.getElementById("openmenu");
 var closemenu = document.getElementById("closemenu");
-var menutimeline = gsap.timeline();
+var menutimeline = gsap.timeline({paused:true});
+menutimeline.to(".menubarbg", {
+    left: 0,
+    duration: .5,
+});
+menutimeline.from(".tags a", {
+    opacity: 0,
+    stagger: 0.1,
+})
 
 function openmenu2() {
-    menutimeline.to(".menubarbg", {
-        left: 0,
-        duration: .5,
-    });
-    menutimeline.from(".tags a", {
-        opacity: 0,
-        stagger: 0.1,
-    })
+    menutimeline.play();
 }
 function myfnc() {
     menutimeline.reverse();
