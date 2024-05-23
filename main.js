@@ -13,12 +13,11 @@ document.addEventListener("DOMContentLoaded", function () {
     timeline.from(".mybar", {
         right: -100 + "%",
         stagger: 0.2,
-        duration: 0.5,
+        duration: 0.4,
     })
     timeline.from(".loader2", {
         right: -100 + "%",
         duration: 0.3,
-        delay: 0.1
     })
     timeline.from(".bgimg", {
         scale: 0.5,
