@@ -18,7 +18,7 @@
 
 
 <body>
-  
+    <div class="cursor" id="mycursor"></div>
     <div class="loader">
         <h1 class="loading" id="loadingnanim">0%</h1>
         <div class="bar1 mybar"></div>
@@ -34,7 +34,23 @@
                     </div>
                     <div class="closemenu d-flex gap-4 align-items-center text-center" onclick="myfnc()">
                         <h5 class="text-white">Close</h5>
-                        <span class="closebtn  fw-bold d-flex justify-content-center align-items-center">X</span>
+                        <span class="closebtn  fw-bold d-flex justify-content-center align-items-center"><svg
+                                xmlns="http://www.w3.org/2000/svg" width="70" height="70" viewBox="0 0 200 200">
+                                <g stroke-width="6.5" stroke-linecap="round">
+                                    <path d="M72 82.286h28.75" fill="#009100" fill-rule="evenodd" stroke="#fff"></path>
+                                    <path
+                                        d="M100.75 103.714l72.482-.143c.043 39.398-32.284 71.434-72.16 71.434-39.878 0-72.204-32.036-72.204-71.554"
+                                        fill="none" stroke="#fff"></path>
+                                    <path d="M72 125.143h28.75" fill="#009100" fill-rule="evenodd" stroke="#fff"></path>
+                                    <path
+                                        d="M100.75 103.714l-71.908-.143c.026-39.638 32.352-71.674 72.23-71.674 39.876 0 72.203 32.036 72.203 71.554"
+                                        fill="none" stroke="#fff"></path>
+                                    <path d="M100.75 82.286h28.75" fill="#009100" fill-rule="evenodd" stroke="#fff">
+                                    </path>
+                                    <path d="M100.75 125.143h28.75" fill="#009100" fill-rule="evenodd" stroke="#fff">
+                                    </path>
+                                </g>
+                            </svg></span>
                     </div>
                 </div>
                 <div class="mainmenu">
@@ -51,7 +67,8 @@
                         <div class="logo">
                             <img width="50%" src="./logo.png" alt="">
                         </div>
-                        <div class="openmenu d-flex gap-4 align-items-center text-center" id="openmenu" onclick="openmenu2()">
+                        <div class="openmenu d-flex gap-4 align-items-center text-center" id="openmenu"
+                            onclick="openmenu2()">
                             <h5 class="text-white">Menu</h5>
                             <span><img class="hamicon" style="filter: invert(100%); cursor: pointer;"
                                     src="./hamburger.png" alt=""></span>
@@ -59,10 +76,10 @@
                     </div>
                     <div class="mylanding">
                         <div class="d-flex align-items-center gap-3 my-4">
-                            <h6 class="text-white fw-light">UI - UX DESIGN DEVELOPMENT </h6>
+                            <h6 class="text-white fw-light cursor-black">UI - UX DESIGN DEVELOPMENT </h6>
                             <div class="line"></div>
                         </div>
-                        <H1 class="bigt">GENIUS <br> <span>BOK</span>OFY</H1>
+                        <H1 class="bigt cursor-black">GENIUS <br> <span>BOK</span>OFY</H1>
                         <div class="discase my-5 d-flex gap-3 align-items-center text-white">
                             <div class="addbtn d-flex justify-content-center align-items-center">
                                 +
@@ -71,9 +88,9 @@
                         </div>
                     </div>
                     <div class="socials d-flex gap-4">
-                        <a href="#;">FACEBOOK</a>
-                        <a href="#;">BEHANCE</a>
-                        <a href="#;">DRIBBLE</a>
+                        <a href="#;" class="cursor-black">FACEBOOK</a>
+                        <a href="#;" class="cursor-black">BEHANCE</a>
+                        <a href="#;" class="cursor-black">DRIBBLE</a>
                     </div>
                 </div>
             </div>
