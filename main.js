@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", function () {
     })
     timeline.from(".loader2", {
         right: -100 + "%",
-        duration: 0.5,
+        duration: 0.3,
         delay: 0.1
     })
     timeline.from(".bgimg", {
