@@ -181,29 +181,7 @@
     height: 30px;
 }
 
-/* @media screen and (max-width:768px) {
-    .loading {
-        font-size: 15vh;
-    }
 
-    .bigt {
-        font-size: 9vh;
-    }
-
-    .mylanding {
-        left: 5%;
-    }
-
-    .addbtn {
-        width: 70px;
-        height: 70px;
-    }
-
-    .hamicon {
-        width: 20px;
-        height: 20px;
-    }
-} */
 .mainmenu{
     display: flex ;
     justify-content: center;
@@ -278,4 +256,20 @@
     .logo{
         width: 50%;
     }
+    .cursor{
+        display: none;
+    }
+}
+.cursor{
+    width: 12px;
+    height: 12px;
+    background-color: #4eff57;
+    border-radius: 50%;
+    position: fixed;
+    z-index: 5;   
+
+}
+
+.black-cursor{
+    background: transparent;
 }
